@@ -1,0 +1,21 @@
+{
+  "appId": "com.smartcalculator.app",
+  "appName": "Smart Calc",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "backgroundColor": "#0b0b0f",
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0b0b0f"
+    }
+  }
+}
